@@ -26,7 +26,7 @@ const JobPosition = ({
         <div className="job-position-info">
           <img className="job-position-avatar" src={logo} alt={company} />
           <div className="job-position-body">
-            <div className="job-postion-company">
+            <div className="job-position-company">
               <h3>{company}</h3>
               {(isNew || featured) && (
                 <Stack>
